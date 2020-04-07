@@ -16,7 +16,7 @@ It turns out, there is a real-world [example](https://yoroi.company/research/jav
 
 ## Using this POC
 
-To use this demo, download this code and type ./gradlew jar. This will create the agent jar you need in the build/libs folder. Then specify the path of the jar to AttachDemo in the code (or make it a command line arg - sorry this was just a poc).
+To use this demo, download this code and type ./gradlew jar. This will create the agent jar you need in the build/libs folder. Then specify the path of the jar to AttachDemo in the code (or make it a command line argument).
 
 You should get a result similar to the following:
 
