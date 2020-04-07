@@ -11,9 +11,9 @@ This is a very quick demo to show that arbitrary process injection is possible i
 
 This code has 2 functions: It serves as the code that can attach to other processes and as the _java agent_. Java has an instrumentation API that is primarily accessible through a specific process. However, this process usually involves the code being instrumented specifying an agent to intercept and manipulate the code as its running. The code in this repository bypasses that requirement.
 
-The code to attach can be found in _AttachDemo_.
+The code to attach can be found in _AttachDemo.java_.
 
-The agent code can be found in _SimpleAgent_. Please note that for agents being injected at runtime, the code you want to inject belongs in the _agentmain_ method.
+The agent code can be found in _SimpleAgent.java_. Please note that for agents being injected at runtime, the code you want to inject belongs in the _agentmain_ method.
 
 It turns out, there is a real-world [example](https://yoroi.company/research/java-amt-malware-the-insider-threat-phantom/) of this that I found after some digging.
 
